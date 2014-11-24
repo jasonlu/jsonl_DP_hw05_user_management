@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project jsonl_DP_hw05_user_management">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/Users/aoisama/Documents/workspace_java/jsonl_DP_hw05_user_management/app.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="application.Main"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/Users/aoisama/Documents/workspace_java/jsonl_DP_hw05_user_management/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jfxrt.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Applications/eclipse/plugins/org.eclipse.fx.ide.css.jfx2_1.0.0.201408150702.jar"/>
+        </jar>
+    </target>
+</project>
